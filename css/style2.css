@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&family=League+Gothic&family=Playfair+Display&display=swap');
+
+html{
+background-color:gainsboro;
+
+}
+
+.body{
+
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+header{
+
+    background-image: url(https://images.pexels.com/photos/7034504/pexels-photo-7034504.jpeg?cs=srgb&dl=pexels-george-milton-7034504.jpg&fm=jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 100 rem 100 rem;
+    text-align: center;
+    border: double white;
+    border-radius: 15px;
+    border-width: 15px;
+    
+    }
+    
+    header h1{
+    
+    font-size: 4rem;
+    text-align: center;
+    }
+    #skills {
+        padding: 90px 0;
+    }
+    
+    #skills h2 {
+        padding-bottom: 50px;
+    }
+    
+    .skills-row {
+        display: flex;
+        padding-bottom: 50px;
+        background-color: gainsboro;
+    }
+    
+    .skills-row-left,
+    .skills-row-right {
+        width: 50%;
+        display: flex;
+        border: solid;
+        border-color: white;
+        background-color: aquamarine;
+
+    }
+    
+    .skills-row-left-image,
+    .skills-row-right-image {
+        width: 50%;
+        text-align: right;
+        padding-right: 50px;
+
+    }
+    
+    .skills-row-left-image img,
+    .skills-row-right-image img {
+        height: 100px;
+        
+    }
+    

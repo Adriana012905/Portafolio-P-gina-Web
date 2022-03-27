@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&family=League+Gothic&family=Playfair+Display&display=swap');
+
+html{
+background-color: gainsboro;
+
+}
+
+.body{
+
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+
+header{
+
+    background-image: url(https://images.pexels.com/photos/583847/pexels-photo-583847.jpeg?cs=srgb&dl=pexels-jessica-lewis-creative-583847.jpg&fm=jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 100 rem 100 rem;
+    text-align: center;
+    border: double white;
+    border-radius: 15px;
+    border-width: 15px;
+    
+    }
+    
+    header h1{
+    
+    font-size: 4rem;
+    text-align: center;
+    }
+
+
+ .container-contact{
+     padding:3em;
+     margin: 0 auto;
+     display: flex;
+     text-align: center;
+ } 
+
+ .container-contact img{
+     width: 400px;
+     height: 500px;
+     bottom: 0px;
+ }
+ 
+ .contact-form{
+ display: flex;
+ flex-direction: column ;
+ width: 30%;
+ margin-top: 2em;
+ 
+ }
+
+ .form-control input{
+padding: 10px 20px;
+margin-bottom: 1em;
+background: none;
+border: none;
+border-bottom:1px solid #fff ;
+color: #fff;
+margin: solid;
+ }
+
+.form-control textarea{
+ height: 200px; 
+ background: none;
+ color:#fff;
+ padding: 1.5em; 
+ border:1px solid #fff ;
+
+}
+.btn-submit{
+padding: 10px 20px;
+margin: 1em;
+border: none;
+text-transform: uppercase;
+background-color: darkcyan;
+border-radius:20px ;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.btn-submit:hover{
+background-color: #fff;
+box-shadow: none;
+
+}
+
+footer{
+    background-color: aquamarine;
+}
